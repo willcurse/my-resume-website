@@ -1,0 +1,105 @@
+.background{
+    background-color:#222831;
+    
+}
+
+.lead{
+    color: aliceblue;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    color:#EEEEEE;
+
+}
+.logo img{
+    width: 190px;
+    margin-left: 60px;
+    
+}
+.header{
+    background-color:grey ;
+}
+nav:hover{
+    background-color: #61677A;
+    transition-duration: 2s;
+    
+}
+.slide-left{
+    color: #EEEEEE;
+    animation: slide 2s  linear forwards ;
+    
+}
+@keyframes slide {
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.buttonbackgrd{
+    background-color: #393E46;
+    opacity: 0;
+    transition: all 2s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.para{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    z-index: 111;
+    background-color:#222831;
+    line-height: 80px;
+}
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    color: #EEEEEE;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+b{
+    font-size: 40px;
+    color: #00ADB5;
+}
+.navItems{
+    display: flex;
+}
+.navItems li{
+list-style: none;
+margin: 0 15px;
+}
+.navItems li a{
+    font-size: 20px;
+    color: #00ADB5;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.navItems li:hover a{
+    color: #EEEEEE;
+}
+
+
